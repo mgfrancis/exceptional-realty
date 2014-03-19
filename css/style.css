@@ -1,0 +1,66 @@
+/* This is a comment! */
+
+/* CSS Syntax:
+
+selector {
+	property: value;
+	property: value;
+}
+
+*/
+
+p { /*select all <p> */
+font-size: 16px; /* 16px, ?pt, 100%, 1em */
+line-height: 1.5em;
+}
+
+figcaption {
+	/*font-weight: normal;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	font-family: Georgia, "New Times Roman", serif; */
+	font: normal 0.75em/1.5em; Georgia, "New Times Roman", serif;
+	color: #777;
+	text-align: right;
+}
+/*Layout*/
+ .wrapper {
+ 	width: 960px;
+ 	margin: 0 auto;
+ 	background: gray;
+ }
+
+ .col-1 {
+ 	float: left;
+ 	width: 32%;
+ 	background: #ccc;
+
+ }
+
+ .col-2 {
+	float: left;
+	width: 66%;
+	background: #ccc;
+ }
+
+ .col-3 {
+ 	background: #ccc;
+ }
+
+ .clearfix:after {
+ 	content: ".";
+ 	clear: both;
+ 	display: block;
+ 	visibility: hidden;
+ 	height: 0;
+ 	line-height: 0;
+ }
+
+ [class*="col-"] {
+ 	margin-left: 2%;
+ }
+
+.first {
+	margin-left: 0%;
+}
+
